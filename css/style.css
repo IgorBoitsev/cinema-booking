@@ -1,0 +1,82 @@
+body {
+  background-color: #621402;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* --- HEADER --- */
+
+.container {
+  max-width: 1170px;
+  margin: auto;
+}
+.header {
+  padding: 30px 0 0 0;
+  background: linear-gradient(180deg, rgba(98, 20, 2, 0.31) 0%, #621402 85.62%), url('./img/bg.jpg');
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+}
+.header-logo {
+  margin-right: 57px;
+}
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.menu-item {
+  margin-right: 25px;
+}
+.menu-link {
+  color: #fff;
+  text-decoration: none;
+  /* font-family: 'Roboto', sans-serif; */
+  font-size: 14px;
+  line-height: 16px;
+}
+.user {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  color: #fff;
+}
+.user-text {
+  /* margin-right: 10px; */
+}
+.user-avatar {
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  margin-left: 11px;
+}
+.film {
+  margin-top: 90px;
+  display: flex;
+  align-items: center;
+}
+.film-title-small {
+  opacity: 0.5;
+  font-size: 24px;
+  color: #FFFFFF;
+}
+.film-title {
+  margin: 11px 0 23px 0;
+  font-size: 36px;
+  line-height: 42px;
+  color: #FFFFFF;
+}
+.film-description {
+  font-size: 16px;
+  line-height: 150%;
+  color: #FFFFFF;
+  max-width: 560px;
+}
+.film-trailer {
+  margin: auto;
+}
